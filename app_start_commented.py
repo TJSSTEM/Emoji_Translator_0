@@ -6,8 +6,7 @@ import random
 
 # --- 2. SET UP THE APP'S TITLE ---
 # This command draws the main title on our web page.
-st.title("My Emoji Translator 💬➡️😎")
-
+st.title("The Emoji Machine 🤖")
 # --- NEW: Instructions Section ---
 with st.expander("👉 How to use this app"):
     st.write("""
@@ -49,10 +48,15 @@ EMOJI_DICT = {
     "eye":"👁",
     "lips":"👄",
     "fries":"🍟",
-    "John":"⚉",
-    "nhoJ":"⚇",
+    "john":"⚉",
+    "nhoj":"⚇",
+    "camping":"🏕",
+    "sewing":"📍",
     # Students can add more!
     "cool": random.choice(["😎", "🤙", "🆒"]),
+    "asian food": random.choice(["🍜", "🍚", "🍥", "🥮",]),
+    "animals": random.choice(["🐏", "🐖", "🐓", "🐄", "🐎",])
+    "sports": random.choice(["⚽️", "🏀", "🏈", "⚾️", "🏐",])
 }
 
 # ------------------------------------
@@ -76,9 +80,9 @@ st.markdown("---")  # Adds a horizontal line
 # The text inside the parentheses is the 'prompt' the user will see.
 # We store whatever the user types in a variable called `user_input`.
 #
-user_input = st.text_input("Enter your text to translate:")
+user_input = st.text_input("Enter text for the Emoji Machine:")
 if "secret" in user_input.lower():
-    st.write("🎉 YOU FOUND THE SECRET! 🎉")
+    st.write("🎉 YOU FOUND THE EMOJI MACHINE'S SECRET 🎉")
 
 
 # --- 6. "TRANSLATE" THE TEXT ---
