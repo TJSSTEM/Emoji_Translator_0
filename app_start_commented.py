@@ -66,7 +66,7 @@ with st.expander("👉 How to use this app"):
 EMOJI_DICT = {
     "love": "❤️",
     "happy": "😊",
-    "sad": "😢",
+    "laugh": "🤣",
     "cat": "🐱",
     "dog": "🐶",
     "sun": "☀️",
@@ -147,8 +147,7 @@ if output_sentence:
 # What do you think these commands do?
 #
 # Remove the # from ONE of them and run your app!
-#
-# st.balloons()
+st.balloons()
 #
 # st.snow()
 #
