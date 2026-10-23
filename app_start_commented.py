@@ -45,7 +45,7 @@ theme = st.selectbox(
 )
 
 COLORS = {
-    "💙 Blue": "#000000",
+    "💙 Blue": "#87CEEB",
     "🩷 Pink": "#FFE0F0",
     "💚 Green": "#DFF8E5",
     "💜 Purple": "#EDE0FF"
