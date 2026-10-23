@@ -41,11 +41,11 @@ st.subheader("🎨 Choose Your App's Color")
 
 theme = st.selectbox(
     "Pick your favorite color:",
-    ["💙 Blue", "🩷 Pink", "💚 Green", "💜 Purple"]
+    ["🖤 Black", "🩷 Pink", "💚 Green", "💜 Purple"]
 )
 
 COLORS = {
-    "💙 Blue": "#87CEEB",
+    "🖤 Black": "#000000",
     "🩷 Pink": "#FFE0F0",
     "💚 Green": "#DFF8E5",
     "💜 Purple": "#EDE0FF"
@@ -111,7 +111,7 @@ with st.expander("👉 How to use this app"):
 
 EMOJI_DICT = {
     "love": "❤️",
-    "happy": "😊",
+    "happy": "😀",
     "sad": "😢",
     "cat": "🐱",
     "dog": "🐶",
